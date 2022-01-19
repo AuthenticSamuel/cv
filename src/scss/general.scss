@@ -1,0 +1,53 @@
+@import "colours";
+
+body {
+    background-color: colour(greyscale, 95);
+    color: colour(greyscale, 15);
+    font-family: "Rubik", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.article {
+    min-height: 60vh;
+    padding: 20px;
+    transition: box-shadow 150ms ease-in-out;
+
+    & > h1 {
+        margin-top: 0;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+@for $i from 1 through 6 {
+    .gtc#{$i} {
+        grid-template-columns: repeat($i, 1fr);
+    }
+
+    .gcs#{$i} {
+        grid-column-start: $i;
+    }
+
+    .gce#{$i} {
+        grid-column-end: $i + 1;
+    }
+
+    .grs#{$i} {
+        grid-row-start: $i;
+    }
+
+    .gre#{$i} {
+        grid-row-end: $i + 1;
+    }
+}

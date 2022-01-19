@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 5px solid white;
+    align-content: center;
+    text-align: center;
+
+    > * {
+        width: 49%;
+    }
+}
