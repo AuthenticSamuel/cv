@@ -1,12 +1,46 @@
 section {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    border: 5px solid white;
-    align-content: center;
-    text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 60vh;
+	padding: 20px;
 
-    > * {
-        width: 49%;
-    }
+	&:first-of-type {
+		& > h1 {
+			font-size: 6rem;
+		}
+	}
+
+	> * {
+		flex: 1;
+		margin: 0;
+	}
+
+	& > :nth-child(1) {
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	& > :nth-child(2) {
+		h1 {
+			font-size: 2rem;
+			text-transform: uppercase;
+			font-style: italic;
+		}
+
+		p {
+			font-size: 1.4rem;
+		}
+	}
+
+	&:first-of-type {
+		&:nth-child(1) {
+			font-size: 2rem;
+		}
+	}
 }

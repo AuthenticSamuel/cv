@@ -1,53 +1,117 @@
 @import "colours";
 
-body {
-    background-color: colour(greyscale, 95);
-    color: colour(greyscale, 15);
-    font-family: "Rubik", Helvetica, sans-serif;
-    margin: 0;
+html {
+	scrollbar-width: none;
+	scroll-behavior: smooth;
 }
 
-.article {
-    min-height: 60vh;
-    padding: 20px;
-    transition: box-shadow 150ms ease-in-out;
+::-webkit-scrollbar {
+	display: none;
+}
 
-    & > h1 {
-        margin-top: 0;
-        text-transform: uppercase;
-        font-size: 3rem;
-        text-align: center;
-    }
+body {
+	background-color: colour(greyscale, 95);
+	color: colour(greyscale, 95);
+	font-family: "Rubik", Helvetica, sans-serif;
+	margin: 0;
+	cursor: default;
+	a {
+		text-decoration: none;
+		color: inherit;
+
+		&:hover {
+			text-decoration: underline 2px;
+		}
+	}
+}
+
+.info {
+	p {
+		padding: 0 50px;
+	}
 }
 
 svg {
-    display: block;
-    width: 100%;
-    height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.scrollArrowDiv {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	bottom: 25px;
+}
+
+.scrollArrow {
+	position: absolute;
+	font-size: 4rem;
+	&1 {
+		bottom: 30px;
+		animation: scrollArrow1 2s infinite ease-in-out;
+	}
+	&2 {
+		bottom: 50px;
+		animation: scrollArrow2 2s infinite ease-in-out;
+	}
+}
+
+@keyframes scrollArrow1 {
+	20% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20%);
+	}
+	80% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes scrollArrow2 {
+	30% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20%);
+	}
+	70% {
+		transform: translateY(0);
+	}
+}
+
+.visible {
+	opacity: 1;
+}
+
+.invisible {
+	opacity: 0;
 }
 
 .grid {
-    display: grid;
+	display: grid;
 }
 
 @for $i from 1 through 6 {
-    .gtc#{$i} {
-        grid-template-columns: repeat($i, 1fr);
-    }
+	.gtc#{$i} {
+		grid-template-columns: repeat($i, 1fr);
+	}
 
-    .gcs#{$i} {
-        grid-column-start: $i;
-    }
+	.gcs#{$i} {
+		grid-column-start: $i;
+	}
 
-    .gce#{$i} {
-        grid-column-end: $i + 1;
-    }
+	.gce#{$i} {
+		grid-column-end: $i + 1;
+	}
 
-    .grs#{$i} {
-        grid-row-start: $i;
-    }
+	.grs#{$i} {
+		grid-row-start: $i;
+	}
 
-    .gre#{$i} {
-        grid-row-end: $i + 1;
-    }
+	.gre#{$i} {
+		grid-row-end: $i + 1;
+	}
 }

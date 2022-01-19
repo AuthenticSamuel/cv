@@ -6,17 +6,15 @@ export const Section = (props) => {
     const background = `linear-gradient(180deg, ${part.colors.start}, ${part.colors.end})`;
     
     return (
-        <section key={`section${part.id.toString()}`} className={`article article${i}`} style={{background: background}}>
+        <section key={part.id} className={`section${i}`} style={{background: background}}>
             <h1 key={"title" + i}>{part.name}</h1>
-            {
-            part.description.map((description, j) => {
+            {part.description.map((description, j) => {
                 return (
-                    <>
-                        <em>{`${description.icon} ${description.text}`}</em><br/>
-                    </>
+                    <div className="info">
+                        {description?.info}
+                    </div>
                 );
-            })
-            }
+            })}
         </section>
     );
 }
