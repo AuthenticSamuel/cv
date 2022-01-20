@@ -6,8 +6,8 @@ export const Section = (props) => {
     const background = `linear-gradient(180deg, ${part.colors.start}, ${part.colors.end})`;
     
     return (
-        <section key={part.id} className={`section${i}`} style={{background: background}}>
-            <h1 key={"title" + i}>{part.name}</h1>
+        <section className={`section${i}`} style={{background: background}}>
+            <h1>{part.name}</h1>
             {part.description.map((description, j) => {
                 return (
                     <div key={`info${j}`} className="info">
