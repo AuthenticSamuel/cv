@@ -1,6 +1,7 @@
 {
 	"name": "cv",
 	"version": "1.0.0",
+	"homepage": "https://teaminfernal.fr/jobs/samuel-ward",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.1",
