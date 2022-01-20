@@ -81,37 +81,3 @@ svg {
 		transform: translateY(0);
 	}
 }
-
-.visible {
-	opacity: 1;
-}
-
-.invisible {
-	opacity: 0;
-}
-
-.grid {
-	display: grid;
-}
-
-@for $i from 1 through 6 {
-	.gtc#{$i} {
-		grid-template-columns: repeat($i, 1fr);
-	}
-
-	.gcs#{$i} {
-		grid-column-start: $i;
-	}
-
-	.gce#{$i} {
-		grid-column-end: $i + 1;
-	}
-
-	.grs#{$i} {
-		grid-row-start: $i;
-	}
-
-	.gre#{$i} {
-		grid-row-end: $i + 1;
-	}
-}

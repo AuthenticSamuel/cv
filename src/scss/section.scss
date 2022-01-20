@@ -44,3 +44,25 @@ section {
 		}
 	}
 }
+
+@media (max-width: 700px) {
+	section {
+		& > :nth-child(1) {
+			font-size: 2rem;
+		}
+		&:first-of-type {
+			& > h1 {
+				font-size: 4rem;
+			}
+		}
+		& > :nth-child(2) {
+			h1 {
+				font-size: 1.5rem;
+			}
+
+			p {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

@@ -10,7 +10,7 @@ export const Section = (props) => {
             <h1 key={"title" + i}>{part.name}</h1>
             {part.description.map((description, j) => {
                 return (
-                    <div className="info">
+                    <div key={`info${j}`} className="info">
                         {description?.info}
                     </div>
                 );

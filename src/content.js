@@ -16,10 +16,11 @@ export const content = {
                             <br/>
                             
                             <div id="coordonnees">
-                                <h1>Coordonnées</h1>
+                                <h1>Contact</h1>
                                 <p><i className="fa-solid fa-location-dot"></i> 14000 Caen</p>
-                                <p><i className="fa-solid fa-mobile-screen-button"></i><a href="tel:+33618333074"> 06 18 33 30 74</a></p>
-                                <p><i className="fa-solid fa-at"></i><a href="mailto: samuel.ward@teaminfernal.fr"> samuel.ward@teaminfernal.fr</a></p>
+                                <p><i className="fa-solid fa-mobile-screen-button"></i><a rel="noreferrer" href="tel:+33618333074"> 06 18 33 30 74</a></p>
+                                <p><i className="fa-solid fa-at"></i><a rel="noreferrer" href="mailto: samuel.ward@teaminfernal.fr"> samuel.ward@teaminfernal.fr</a></p>
+                                <p style={{fontSize:"3rem", marginTop:"0"}}><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/samuelwrd/"><i className="fa-brands fa-linkedin"></i></a> <a rel="noreferrer" target="_blank" href="https://github.com/INF-Zenyth"><i className="fa-brands fa-github-square"></i></a> <a rel="noreferrer" target="_blank" href="https://dev.to/zenyth"><i className="fa-brands fa-dev"></i></a></p>
                             </div>
                         </>
                     },
@@ -27,7 +28,6 @@ export const content = {
                 colors: {
                     start: "#1976D2",
                     end: "#039BE5",
-                    text: "#ffffff",
                 },
                 svg: <svg viewBox="0 0 1920 500" width="1920" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M0 76L137 56L274 36L411 31L549 36L686 66L823 66L960 61L1097 31L1234 66L1371 41L1509 46L1646 41L1783 71L1920 56L1920 0L1783 0L1646 0L1509 0L1371 0L1234 0L1097 0L960 0L823 0L686 0L549 0L411 0L274 0L137 0L0 0Z" fill="#039be5"></path><path d="M0 106L137 91L274 101L411 91L549 71L686 96L823 131L960 111L1097 86L1234 126L1371 71L1509 101L1646 71L1783 101L1920 111L1920 54L1783 69L1646 39L1509 44L1371 39L1234 64L1097 29L960 59L823 64L686 64L549 34L411 29L274 34L137 54L0 74Z" fill="#00b5e1"></path><path d="M0 181L137 151L274 156L411 146L549 126L686 136L823 206L960 171L1097 131L1234 196L1371 141L1509 181L1646 141L1783 181L1920 146L1920 109L1783 99L1646 69L1509 99L1371 69L1234 124L1097 84L960 109L823 129L686 94L549 69L411 89L274 99L137 89L0 104Z" fill="#00c9c6"></path><path d="M0 286L137 236L274 301L411 296L549 326L686 296L823 286L960 261L1097 261L1234 351L1371 266L1509 316L1646 321L1783 301L1920 306L1920 144L1783 179L1646 139L1509 179L1371 139L1234 194L1097 129L960 169L823 204L686 134L549 124L411 144L274 154L137 149L0 179Z" fill="#57d89f"></path><path d="M0 386L137 351L274 361L411 366L549 391L686 406L823 346L960 311L1097 346L1234 401L1371 386L1509 376L1646 416L1783 381L1920 421L1920 304L1783 299L1646 319L1509 314L1371 264L1234 349L1097 259L960 259L823 284L686 294L549 324L411 294L274 299L137 234L0 284Z" fill="#acdf7b"></path><path d="M0 501L137 501L274 501L411 501L549 501L686 501L823 501L960 501L1097 501L1234 501L1371 501L1509 501L1646 501L1783 501L1920 501L1920 419L1783 379L1646 414L1509 374L1371 384L1234 399L1097 344L960 309L823 344L686 404L549 389L411 364L274 359L137 349L0 384Z" fill="#fadf6d"></path></svg>
             },
@@ -70,7 +70,7 @@ export const content = {
                             <div id="formaCesi">
                                 <h1>CESI école d'ingénieurs</h1>
                                 <p><i className="fa-solid fa-graduation-cap"></i> Année 2 - Classe Préparatoire Intégrée</p>
-                                <p><a target="_blank" href="https://www.google.com/maps/place/Campus+Cesi/@49.2130123,-0.3552588,18.79z/data=!4m5!3m4!1s0x480a5d86d1a4b05b:0x223d94c1fef946dc!8m2!3d49.2132644!4d-0.3554011?shorturl=1"><i className="fa-solid fa-location-dot"></i> 14200 Hérouville Saint Clair <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://www.google.com/maps/place/Campus+Cesi/@49.2130123,-0.3552588,18.79z/data=!4m5!3m4!1s0x480a5d86d1a4b05b:0x223d94c1fef946dc!8m2!3d49.2132644!4d-0.3554011?shorturl=1"><i className="fa-solid fa-location-dot"></i> 14200 Hérouville Saint Clair <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                                 <p><i className="fa-solid fa-calendar-days"></i> Depuis septembre 2020</p>
                             </div>
                             
@@ -79,7 +79,7 @@ export const content = {
                             <div id="formaSTI2D">
                                 <h1>Lycée Julliot de la Morandière</h1>
                                 <p><i className="fa-solid fa-graduation-cap"></i> Bac STI2D SIN [Mention Très Bien]</p>
-                                <p><a target="_blank" href="https://www.google.com/maps/place/School+Julliot+De+La+Morandi%C3%A8re/@48.8298792,-1.5807116,17z/data=!3m1!4b1!4m5!3m4!1s0x480c1b27278511b3:0x33bd2c0547ad062d!8m2!3d48.8298757!4d-1.5785229?shorturl=1"><i className="fa-solid fa-location-dot"></i> 50400 Granville <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://www.google.com/maps/place/School+Julliot+De+La+Morandi%C3%A8re/@48.8298792,-1.5807116,17z/data=!3m1!4b1!4m5!3m4!1s0x480c1b27278511b3:0x33bd2c0547ad062d!8m2!3d48.8298757!4d-1.5785229?shorturl=1"><i className="fa-solid fa-location-dot"></i> 50400 Granville <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                                 <p><i className="fa-solid fa-calendar-days"></i> 2017 - 2020</p>
                             </div>
                         </>
@@ -163,7 +163,7 @@ export const content = {
                                 <h1>INFBOT Voice</h1>
                                 <p>Bot Discord qui permet de créer des canaux vocaux automatiquement sur demande d'un utilisateur.</p>
                                 <p>Utilisation de JavaScript & Node.js</p>
-                                <p><a target="_blank" href="https://github.com/INF-Zenyth/INFBOT-Voice"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://github.com/INF-Zenyth/INFBOT-Voice"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                             </div>
 
                             <br/>
@@ -172,7 +172,7 @@ export const content = {
                                 <h1>INFBOT Services</h1>
                                 <p>Bot Discord qui modère automatiquement les tchats, donne aux utilisateurs des jeux, et toutes les fonctionnalités d'INFBOT Voice.</p>
                                 <p>Utilisation de JavaScript & Node.js</p>
-                                <p><a target="_blank" href="https://github.com/INF-Zenyth/INFBOT-Services"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://github.com/INF-Zenyth/INFBOT-Services"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                             </div>
 
                             <br/>
@@ -181,7 +181,7 @@ export const content = {
                                 <h1>TeamInfernal.fr</h1>
                                 <p>Site web responsive pour mon groupe, Infernal.</p>
                                 <p>HTML, CSS, JavaScript, PHP</p>
-                                <p><a target="_blank" href="https://teaminfernal.fr"><strong>TeamInfernal.fr</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://teaminfernal.fr"><strong>TeamInfernal.fr</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                             </div>
                         </>
                     },
@@ -202,7 +202,7 @@ export const content = {
                             <div id="cesi3w">
                                 <h1>CESI - Worldwide Weather Watcher</h1>
                                 <p>Utilisation d'Arduino (C/C++), VSCode & PlatformIO</p>
-                                <p><a target="_blank" href="https://github.com/INF-Zenyth/CESI-Projet-3W"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://github.com/INF-Zenyth/CESI-Projet-3W"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                             </div>
 
                             <br/>
@@ -210,7 +210,7 @@ export const content = {
                             <div id="cesiDeliveryManager">
                                 <h1>CESI - Delivery Manager</h1>
                                 <p>Utilisation de C++, .NET, Visual Studio & SQL Server</p>
-                                <p><a target="_blank" href="https://github.com/TTSF76/projetpoo"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                                <p><a rel="noreferrer" target="_blank" href="https://github.com/TTSF76/projetpoo"><strong>Lien GitHub</strong> <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                             </div>
                         </>
                     },
