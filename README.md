@@ -1,7 +1,7 @@
 <div>
 	<h1>CV de Samuel WARD - Version React</h1>
 	<h2>A propos</h2>
-	<p>Etant actuellement étudiant en 2ème année d'Ecole d'Ingénieurs CESI à Caen, je suis à la recherche d'un stage (4 avril - 29 juillet 2022) dans le domaine du développement web.</p>
+	<p>Etant actuellement étudiant en 2ème année d'Ecole d'Ingénieurs CESI à Caen, je suis à la recherche d'un stage (4 avril - 29 juillet 2022) sur Caen ou Rouen dans le domaine du développement web.</p>
 	<p>Je suis également à la recherche d'une alternance sur Rouen à partir de septembre 2022 dans le même domaine.</p>
 	<p>Ce CV est disponible sur mon site, <a href="https://teaminfernal.fr/jobs">TeamInfernal.fr</a>.</p>
 	<h2>Technologies utilisées</h2>
