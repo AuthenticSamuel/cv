@@ -39,7 +39,7 @@ export const content = {
                         info:
                         <>
                             <div id="stage">
-                                <h1>...un Stage</h1>
+                                <h1>...<span style={{textDecoration: "line-through 3px solid #e8e8e8"}}>un Stage</span> (Trouvé)</h1>
                                 <p><i className="fa-solid fa-location-dot"></i> Caen / Rouen</p>
                                 <p><i className="fa-solid fa-calendar-days"></i> 4 avril - 29 juillet 2022 (~4 mois)</p>
                             </div>
@@ -50,6 +50,7 @@ export const content = {
                                 <h1>...une Alternance</h1>
                                 <p><i className="fa-solid fa-location-dot"></i> Rouen</p>
                                 <p><i className="fa-solid fa-calendar-days"></i> A partir de septembre 2022</p>
+                                <p><i className="fa-solid fa-clock"></i> Durée: 3 ans</p>
                             </div>
                         </>
                     },
@@ -100,7 +101,7 @@ export const content = {
                         <>
                             <div id="programmation">
                                 <h1>Programmation</h1>
-                                <p>JavaScript, React (ce CV), HTML5, CSS3/Sass<br/> PHP, C/C++, Python, MySQL, SQL Server</p>
+                                <p>JavaScript, React (ce CV), HTML5, Sass/CSS3<br/> PHP, C/C++, Python, MySQL, SQL Server</p>
                             </div>
 
                             <br/>
