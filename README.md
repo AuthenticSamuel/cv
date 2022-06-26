@@ -2,7 +2,8 @@
 	<h1>CV de Samuel WARD - Version React</h1>
 	<h2>A propos</h2>
 	<p>Etant actuellement étudiant en 2ème année d'Ecole d'Ingénieurs CESI à Caen, <strike>je suis à la recherche d'un stage (4 avril - 29 juillet 2022) sur Caen ou Rouen dans le domaine du développement web</strike>.</p>
-	<p>Je suis également à la recherche d'une alternance sur Rouen à partir de septembre 2022 dans le même domaine.</p>
+	<p><strike>Je suis également à la recherche d'une alternance sur Rouen à partir de septembre 2022 dans le même domaine.</strike></p>
+	<p>Merci Spirkop!</p>
 	<p>Ce CV est disponible sur mon site, <a href="https://teaminfernal.fr/jobs">TeamInfernal.fr</a>.</p>
 	<h2>Technologies utilisées</h2>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
